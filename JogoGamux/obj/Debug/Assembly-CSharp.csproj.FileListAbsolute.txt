@@ -1,0 +1,2 @@
+C:\Users\Gustavo\Documents\GitHub\JogoUnity\JogoGamux\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Documents\GitHub\JogoUnity\JogoGamux\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

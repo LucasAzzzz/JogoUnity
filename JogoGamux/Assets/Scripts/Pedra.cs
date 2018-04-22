@@ -13,13 +13,13 @@ public class Pedra : MonoBehaviour {
 
 	private bool IsPressed = false;
 
-	void Update()
-	{
-		if (IsPressed) {
-			
-			Vector2 mousePos = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+    void Update()
+    {
+        if (IsPressed) {
 
-			if (Vector3.Distance (mousePos, estilingue.position) > MaxDragDistance) {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+            if (Vector3.Distance (mousePos, estilingue.position) > MaxDragDistance) {
 				pedra.position = estilingue.position + (mousePos - estilingue.position).normalized * MaxDragDistance;
 			} else {
 				pedra.position = mousePos;
